@@ -8,7 +8,8 @@
 
 body {                                       
       font: 14px/18px Arial;
-       height: 100%;}
+      height: 100%;
+}
 
 a {                                            
    color: blue;                                
@@ -21,38 +22,46 @@ a:hover {
 }
 
 p {
-	margin: 20px 0 5px;              
+	margin: 20px 0 5px; 
 }
 
 button {
- color:white; 
-  background: rgb(12, 160, 24); 
-  padding: .2em 1.5em; 
+    color:white; 
+    background: rgb(12, 160, 24); 
+    padding: .2em 1.5em; 
 } 
+
 button:hover { background: rgba(12, 160, 24, 0.850); } 
 button:active { background: rgb(6, 112, 15); } 
+
+comm {
+    text-align:right;
+}
+
+label {
+    float:left;
 }
 
 </style>    
 
 <table>
-<tr>
-    <td class="leftcol"><img src="https://spb.hh.ru/photo/501515040.jpeg?t=1525582980&h=ZexTG6vlvckQu6Zy4s48ZA" style="width: 200px; height: 200px;"/></td>
-    <td valign="top">
+    <tr>
+        <td class="leftcol"><img src="https://spb.hh.ru/photo/501515040.jpeg?t=1525712213&h=VPXrVyWXDwWkT7eEURgB0w" style="width: 150px; height: 150px;"/></td>
+        <td valign="top">
 <p><b>Имя:</b> Максим Носов</p>
-<a href="https://github.com/Maxxus999/hello">Репозиторий GitHub</a>
+<a href="https://github.com/Maxxus999/hello" target="Репозиторий">Репозиторий GitHub</a>
 <p><b>Опыт работы:</b> Нет</p>
-</td>
-</tr>
+        </td>
+    </tr>
 </table>
 
 <p><b>Дата собеседования:</b> <input type="date"></p>
 
 <p><b>Уровень английского:</b></p>
-<input type="radio"; value="10"; name="1"/> Плохо
-<input type="radio"; value="20"; name="1"/> Средне
-<input type="radio"; value="30"; name="1"/> Хорошо
-<input type="radio"; value="40"; name="1"/> Превосходно
+<input type="radio" value="10" name="1"/> Плохо
+<input type="radio" value="20" name="1"/> Средне
+<input type="radio" value="30" name="1"/> Хорошо
+<input type="radio" value="40" name="1"/> Превосходно
 
 <p><b>Ключевые навыки:</b></p>
 <ul>
@@ -64,22 +73,22 @@ button:active { background: rgb(6, 112, 15); }
 <input type="text" placeholder="введите навык..." id="skill" name="res"/>
 <button type="button">Добавить в список</button>
 
-
-<p><b>Коммуникабельность:</b></p> 
+<div class="comm">
+<p><label for="c"><b>Коммуникабельность:</b></label></p>
 <select name="communication">
         <option value="none">Склонный к молчанию</option>
         <option value="medium">Легко налаживает контакт</option>
         <option value="easy">Непринужденно общается</option>
 </select>
 
-<p><b>Желаемая з/п:</b></p>
-<input type="text" placeholder="введите значение..." id="rub" name="rub"/>
+<p><label for="m"><b>Желаемая з/п:</b></label></p>
+<input type="number" placeholder="введите значение..." id="rub" name="rub"/>
 
 <p><b>Подходит по критериям:</b></p> 
-<input type="checkbox"; name=""; id="jmag"/> Знание английского
-<input type="checkbox"; name=""; id="jmag"/> Оклад
-<input type="checkbox"; name=""; id="jmag"/> Навыки
-<input type="checkbox"; name=""; id="jmag"/> Сразу видно, что свой человек
+<input type="checkbox" name="" id="2"/> Знание английского
+<input type="checkbox" name="" id="2"/> Оклад
+<input type="checkbox" name="" id="2"/> Навыки
+<input type="checkbox" name="" id="2"/> Сразу видно, что свой человек
 
 <p><b>Образование, курсы и т.п.:</b></p>
 <table border="1px">
