@@ -1,0 +1,59 @@
+<style> 
+
+a {        
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;                                     
+    color: blue;                                
+    outline: none;
+    text-decoration: underline;                   
+}
+
+a:hover {                            
+	text-decoration: none;     
+}
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size:14px;
+    color: #000000;
+}
+
+
+button {
+    color:wFF2800; 
+    background: #C7EA46; 
+    padding: .2em 1.5em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-radius: 10px 0;
+} 
+
+button:hover { background:white; } 
+button:active { background: #7C9E04; } 
+
+table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    border-collapse: collapse;
+    text-align: left;
+    line-height: auto;
+    border-width: 3px;
+    box-shadow: 0 0 0 10px #00A8C5;
+   
+}
+
+input {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size:12px;
+    color: #000000;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+
+select {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size:12px;
+    color: #000000;
+    background-color: #B2E8D3;
+}
+
+
+
+</style>   
