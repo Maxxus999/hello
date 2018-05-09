@@ -2,13 +2,18 @@
 
 a {        
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;                                     
-    color: blue;                                
+    color: orangered;                                
     outline: none;
     text-decoration: underline;                   
 }
 
+a:visited {
+    color: red;
+}
+
 a:hover {                            
-	text-decoration: none;     
+    text-decoration: none;
+    color: green;     
 }
 
 body {
@@ -24,6 +29,7 @@ button {
     padding: .2em 1.5em;
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     border-radius: 10px 0;
+    box-shadow: 2px 2px 6px 0 #AEB2AD;
 } 
 
 button:hover { background:white; } 
@@ -34,10 +40,21 @@ table {
     border-collapse: collapse;
     text-align: left;
     line-height: auto;
-    border-width: 3px;
+    border-width: 2px;
     box-shadow: 0 0 0 10px #00A8C5;
-   
+    width: 100%;
+    margin: 10px;
 }
+
+th {
+    background: #AEB2AD; 
+    color: black;  
+   }
+tr:hover {
+    background: #F25F5C; 
+    color: white; 
+   }
+
 
 input {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
@@ -45,6 +62,7 @@ input {
     color: #000000;
     background-color: #F4F4F4;
     border-radius: 5px;
+    outline: none;
 }
 
 select {
@@ -54,6 +72,22 @@ select {
     background-color: #B2E8D3;
 }
 
+.center {
+    width: 580px; 
+    margin: auto;
+}
 
+.info {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 100px 0 0;
+    }
+
+.box {
+    border-width: 2px;
+    box-shadow: 0 0 0 10px #00A8C5;
+    width: 100%;
+    margin: 10px;
+}
 
 </style>   
