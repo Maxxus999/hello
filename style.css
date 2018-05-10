@@ -42,7 +42,7 @@ table {
     line-height: auto;
     border-width: 2px;
     box-shadow: 0 0 0 10px #00A8C5;
-    width: 100%;
+    width: 560px;
     margin: 10px;
 }
 
@@ -86,8 +86,14 @@ select {
 .box {
     border-width: 2px;
     box-shadow: 0 0 0 10px #00A8C5;
-    width: 100%;
+    width: 560px;
     margin: 10px;
+}
+
+.box-2 {
+    border-width: 2px;
+    width: 100%;
+    
 }
 
 </style>   
