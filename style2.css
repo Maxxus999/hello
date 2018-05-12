@@ -1,0 +1,108 @@
+<style>
+
+@font-face {
+    font-family: "OctinSports";
+    src: url("fonts/octinsports.eot");
+}
+
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: -2px;
+}
+
+span {
+    font-size: 10px;
+}
+
+.form {
+    height: 600px;
+    width: 800px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.shapka {
+    height: 65px;
+    width: 790px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #A3D9FF; 
+    padding: 0 5px 5px 5px;
+    border-bottom: 1px solid black;
+}
+
+.content {
+    height: 530px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.bar {
+    height: 530px;
+    width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #6493BA; 
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.who {
+    display: flex;
+    flex-direction: row;
+}
+
+.init {
+    display: inline-block;
+    background: #B3D9F9; 
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.data {
+    display: inline-block;
+    margin: 20px 10px 10px 0;
+    font-size: 9px;
+}
+
+.chat {
+    height: 530px;
+    width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background: #E5E5E5;
+    border-bottom: 1px solid black;
+    overflow: auto;
+}
+
+.name {
+    display: inline-block;
+    font-size: 16px;  
+    margin: 10px 10px 0 10px;
+}
+
+.message {
+    display: inline-block;
+    background: #D3ECFF;  
+    margin: 10px 10px 5px 10px;
+    font-size: 12px;
+}
+
+
+</style>
