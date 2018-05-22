@@ -23,17 +23,15 @@ span {
     height: 600px;
     width: 800px;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     border: 1px solid black;
+    margin: auto;
 }
 
 .shapka {
     height: 65px;
     width: 790px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
+    display: inline-block;
     background: #A3D9FF; 
     padding: 0 5px 5px 5px;
     border-bottom: 1px solid black;
@@ -41,41 +39,47 @@ span {
 
 .close {
     text-align: right;
+    position: absolute;
+    right: 70px;
     margin-bottom: -10px; 
+    margin-right: -10px;
 }
+
 
 .content {
-    height: 530px;
-    width: 800px;
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    align-items: baseline;
-    flex-flow: column wrap;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   align-content: space-between;
+   background: rgb(71, 135, 184); 
+   overflow: auto;
+       
 }   
 
+.block {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: auto;
+    margin: 8px;
+    background: rgb(71, 135, 184); 
+       
+    
+}   
+
+
 .bar {
-    height: 530px;
     width: 150px;
     display: flex;
-    flex-flow: column wrap;
-    background: #6493BA; 
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    overflow: auto;
-}
-
-.who {
-    display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    text-align: center;
     align-items: center;
-    margin: auto;
-    
+    border-right: 1px solid black;
 }
 
-.initcircle {
-    display: inline-block;
+
+.circle {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -91,40 +95,28 @@ span {
     width: 70px;
     text-align: center;
     font-size: 10px;
-}
-
-.chat {
-    height: 530px;
-    width: 649px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    background: #E5E5E5;
-    overflow: auto;
-    border-right: 1px solid black;
+    
 }
 
 .namemessage {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    margin: auto;
-    
+          
 }
 
 .name {
     display: inline-block;
-    margin: 10px 10px 0 5px;
+    margin: 0 10px 0 5px;
     font-size: 16px;  
 }
 
 .message {
-    display: flex;
+    display: inline-block;
     background: #D3ECFF;  
-    margin: 10px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
     font-size: 12px;
     
-    
+        
 }
 
 
